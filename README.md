@@ -9,8 +9,8 @@ SOLID 원칙을 철저히 지키면 변경이 용이하고, 유지보수와 확�
 
 ## SRP(단일 책임의 원칙, Single Responsibility Principle)
 > 클래스(객체)는 단 하나의 책임만 가져야 한다는 원칙
-- [SRP 위배된 코드]()
-- [SRP 적용한 코드]()
+- [SRP 위배된 코드](src/main/java/srp/before)
+- [SRP 적용한 코드](src/main/java/srp/after)
 
 ## OCP(개방 폐쇄 원칙, Open-Closed Principle)
 > 확장에 대해 열려있고 수정에 대해서는 닫혀있어야 한다는 원칙
