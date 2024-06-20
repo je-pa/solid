@@ -14,20 +14,20 @@ SOLID 원칙을 철저히 지키면 변경이 용이하고, 유지보수와 확�
 
 ## OCP(개방 폐쇄 원칙, Open-Closed Principle)
 > 확장에 대해 열려있고 수정에 대해서는 닫혀있어야 한다는 원칙
-- [OCP 위배된 코드]()
-- [OCP 적용한 코드]()
+- [OCP 위배된 코드](src/main/java/ocp/before)
+- [OCP 적용한 코드](src/main/java/ocp/after)
 
 ## LSP(리스코프 치환 원칙, Liskov Substitution Principle)
 > 서브 타입은 언제나 기반(부모) 타입으로 교체할 수 있어야 한다는 원칙
-- [LSP 위배된 코드]()
-- [LSP 적용한 코드]()
+- [LSP 위배된 코드](src/main/java/isp/before)
+- [LSP 적용한 코드](src/main/java/isp/after)
 
 ## ISP(인터페이스 분리 원칙, Interface segregation principle)
 > 인터페이스를 각각 사용에 맞게 끔 잘게 분리해야한다는 설계 원칙
-- [ISP 위배된 코드]()
-- [ISP 적용한 코드]()
+- [ISP 위배된 코드](src/main/java/dip/before)
+- [ISP 적용한 코드](src/main/java/dip/after)
 
 ## DIP(의존 역전 원칙, Dependency Inversion Principle)
 > 어떤 Class를 참조해서 사용해야하는 상황이 생긴다면, 그 Class를 직접 참조하는 것이 아니라 그 대상의 상위 요소(추상 클래스 or 인터페이스)로 참조하라는 원칙
-- [DIP 위배된 코드]()
-- [DIP 적용한 코드]()
+- [DIP 위배된 코드](src/main/java/lsp/before)
+- [DIP 적용한 코드](src/main/java/lsp/after)
