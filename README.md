@@ -19,15 +19,15 @@ SOLID 원칙을 철저히 지키면 변경이 용이하고, 유지보수와 확�
 
 ## LSP(리스코프 치환 원칙, Liskov Substitution Principle)
 > 서브 타입은 언제나 기반(부모) 타입으로 교체할 수 있어야 한다는 원칙
-- [LSP 위배된 코드](src/main/java/isp/before)
-- [LSP 적용한 코드](src/main/java/isp/after)
+- [LSP 위배된 코드](src/main/java/lsp/before)
+- [LSP 적용한 코드](src/main/java/lsp/after)
 
 ## ISP(인터페이스 분리 원칙, Interface segregation principle)
 > 인터페이스를 각각 사용에 맞게 끔 잘게 분리해야한다는 설계 원칙
-- [ISP 위배된 코드](src/main/java/dip/before)
-- [ISP 적용한 코드](src/main/java/dip/after)
+- [ISP 위배된 코드](src/main/java/isp/before)
+- [ISP 적용한 코드](src/main/java/isp/after)
 
 ## DIP(의존 역전 원칙, Dependency Inversion Principle)
 > 어떤 Class를 참조해서 사용해야하는 상황이 생긴다면, 그 Class를 직접 참조하는 것이 아니라 그 대상의 상위 요소(추상 클래스 or 인터페이스)로 참조하라는 원칙
-- [DIP 위배된 코드](src/main/java/lsp/before)
-- [DIP 적용한 코드](src/main/java/lsp/after)
+- [DIP 위배된 코드](src/main/java/dip/before)
+- [DIP 적용한 코드](src/main/java/dip/after)
